@@ -28,10 +28,18 @@
 				</Linker>
 			</Target>
 		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Debug;Release;" />
+		</VirtualTargets>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="inc" />
 		</Compiler>
+		<Unit filename="inc/program.h" />
 		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/program.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
