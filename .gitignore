@@ -1,0 +1,13 @@
+*.save
+*.depend
+*.layout
+*.bak
+*.cscope_file_list
+*.dll
+*.obj
+*.exe
+obj/
+bin/
+*.bat
+*.lnk
+img/
